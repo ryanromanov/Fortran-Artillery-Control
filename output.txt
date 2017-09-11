@@ -1,0 +1,833 @@
+ File: output.txt          
+ Welcome to the Artillery Control System
+ In this program you will control a number of artillery batteries and fire them upon a central target.
+ How many batteries do you wish to use?
+  
+ ***************************************************
+ You have chosen to use  2 artillery batteries.
+
+ Please enter the types of battery you want to use. 
+ Then, enter the the range the battery is from the target.
+ Enter "1" for the 105mm A2A1 Howitzer
+  * Max-Range (in meters) for the A2A1 is: 11200.00 meters
+ Enter "2" for the 155mm M1
+  * Max-Range (in meters) for the M1 is: 23700.00 meters
+ ***************************************************
+ Enter artillery type for battery number:  1
+ Artillery type:            1
+ Enter range (in meters) from target for battery number:  1
+ Range:    10000.0000    
+ Enter artillery type for battery number:  2
+ Artillery type:            2
+ Enter range (in meters) from target for battery number:  2
+ Range:    10000.0000    
+  
+ Time:   0.00s
+  
+ ** Battery No. 1 has fired at t=  0.00 s | Theta= 30.28 deg | V0= 337.14 **
+  
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 169.51   Alt:    0.00 X-pos:    0.00  Range-to-target: 10000.00m
+  
+ Time:   0.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 167.04   Alt:   42.07 X-pos:   72.86  Range-to-target:  9927.14m
+  
+ Time:   0.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 164.57   Alt:   83.52 X-pos:  145.72  Range-to-target:  9854.28m
+  
+ Time:   0.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 162.10   Alt:  124.35 X-pos:  218.57  Range-to-target:  9781.43m
+  
+ Time:   1.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 159.63   Alt:  164.57 X-pos:  291.43  Range-to-target:  9708.57m
+  
+ Time:   1.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 157.16   Alt:  204.17 X-pos:  364.29  Range-to-target:  9635.71m
+  
+ Time:   1.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 154.69   Alt:  243.15 X-pos:  437.15  Range-to-target:  9562.85m
+  
+ Time:   1.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 152.22   Alt:  281.51 X-pos:  510.01  Range-to-target:  9490.00m
+  
+ Time:   2.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 149.75   Alt:  319.26 X-pos:  582.86  Range-to-target:  9417.14m
+  
+ Time:   2.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 147.28   Alt:  356.38 X-pos:  655.72  Range-to-target:  9344.28m
+  
+ Time:   2.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 144.81   Alt:  392.90 X-pos:  728.58  Range-to-target:  9271.42m
+  
+ Time:   2.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 142.34   Alt:  428.79 X-pos:  801.44  Range-to-target:  9198.56m
+  
+ Time:   3.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 139.87   Alt:  464.06 X-pos:  874.29  Range-to-target:  9125.71m
+  
+ Time:   3.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 137.40   Alt:  498.72 X-pos:  947.15  Range-to-target:  9052.85m
+  
+ Time:   3.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 134.93   Alt:  532.76 X-pos: 1020.01  Range-to-target:  8979.99m
+  
+ Time:   3.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 132.46   Alt:  566.19 X-pos: 1092.87  Range-to-target:  8907.13m
+  
+ Time:   4.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 129.99   Alt:  598.99 X-pos: 1165.73  Range-to-target:  8834.27m
+  
+ Time:   4.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 127.52   Alt:  631.18 X-pos: 1238.58  Range-to-target:  8761.42m
+  
+ Time:   4.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 125.05   Alt:  662.75 X-pos: 1311.44  Range-to-target:  8688.56m
+  
+ ** Battery No. 2 has fired at t=  4.41 s | Theta= 23.91 deg | V0= 365.57 **
+  
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 146.83   Alt:   13.49 X-pos:   30.64  Range-to-target:  9969.36m
+  
+ Time:   4.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 122.58   Alt:  693.70 X-pos: 1384.30  Range-to-target:  8615.70m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 144.36   Alt:   49.89 X-pos:  114.24  Range-to-target:  9885.76m
+  
+ Time:   5.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 120.11   Alt:  724.04 X-pos: 1457.16  Range-to-target:  8542.84m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 141.89   Alt:   85.67 X-pos:  197.83  Range-to-target:  9802.17m
+  
+ Time:   5.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 117.64   Alt:  753.76 X-pos: 1530.02  Range-to-target:  8469.98m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 139.42   Alt:  120.83 X-pos:  281.43  Range-to-target:  9718.57m
+  
+ Time:   5.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 115.17   Alt:  782.86 X-pos: 1602.87  Range-to-target:  8397.13m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 136.95   Alt:  155.38 X-pos:  365.03  Range-to-target:  9634.97m
+  
+ Time:   5.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 112.70   Alt:  811.34 X-pos: 1675.73  Range-to-target:  8324.27m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 134.48   Alt:  189.31 X-pos:  448.63  Range-to-target:  9551.37m
+  
+ Time:   6.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 110.23   Alt:  839.21 X-pos: 1748.59  Range-to-target:  8251.41m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 132.01   Alt:  222.62 X-pos:  532.23  Range-to-target:  9467.77m
+  
+ Time:   6.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 107.76   Alt:  866.46 X-pos: 1821.45  Range-to-target:  8178.55m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 129.54   Alt:  255.31 X-pos:  615.82  Range-to-target:  9384.18m
+  
+ Time:   6.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 105.29   Alt:  893.09 X-pos: 1894.30  Range-to-target:  8105.70m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 127.07   Alt:  287.39 X-pos:  699.42  Range-to-target:  9300.58m
+  
+ Time:   6.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 102.82   Alt:  919.10 X-pos: 1967.16  Range-to-target:  8032.84m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 124.60   Alt:  318.84 X-pos:  783.02  Range-to-target:  9216.98m
+  
+ Time:   7.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 100.35   Alt:  944.50 X-pos: 2040.02  Range-to-target:  7959.98m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 122.13   Alt:  349.68 X-pos:  866.62  Range-to-target:  9133.38m
+  
+ Time:   7.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  97.88   Alt:  969.28 X-pos: 2112.88  Range-to-target:  7887.12m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 119.66   Alt:  379.91 X-pos:  950.22  Range-to-target:  9049.78m
+  
+ Time:   7.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  95.41   Alt:  993.44 X-pos: 2185.74  Range-to-target:  7814.26m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 117.19   Alt:  409.51 X-pos: 1033.81  Range-to-target:  8966.19m
+  
+ Time:   7.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  92.94   Alt: 1016.98 X-pos: 2258.59  Range-to-target:  7741.41m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 114.72   Alt:  438.50 X-pos: 1117.41  Range-to-target:  8882.59m
+  
+ Time:   8.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  90.47   Alt: 1039.91 X-pos: 2331.45  Range-to-target:  7668.55m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 112.25   Alt:  466.87 X-pos: 1201.01  Range-to-target:  8798.99m
+  
+ Time:   8.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  88.00   Alt: 1062.21 X-pos: 2404.31  Range-to-target:  7595.69m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 109.78   Alt:  494.62 X-pos: 1284.61  Range-to-target:  8715.39m
+  
+ Time:   8.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  85.53   Alt: 1083.90 X-pos: 2477.17  Range-to-target:  7522.83m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 107.31   Alt:  521.76 X-pos: 1368.21  Range-to-target:  8631.79m
+  
+ Time:   8.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  83.06   Alt: 1104.98 X-pos: 2550.03  Range-to-target:  7449.97m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 104.84   Alt:  548.27 X-pos: 1451.80  Range-to-target:  8548.20m
+  
+ Time:   9.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  80.59   Alt: 1125.43 X-pos: 2622.88  Range-to-target:  7377.12m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 102.37   Alt:  574.17 X-pos: 1535.40  Range-to-target:  8464.60m
+  
+ Time:   9.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  78.12   Alt: 1145.27 X-pos: 2695.74  Range-to-target:  7304.26m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  99.90   Alt:  599.46 X-pos: 1619.00  Range-to-target:  8381.00m
+  
+ Time:   9.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  75.65   Alt: 1164.49 X-pos: 2768.60  Range-to-target:  7231.40m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  97.43   Alt:  624.12 X-pos: 1702.60  Range-to-target:  8297.40m
+  
+ Time:   9.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  73.18   Alt: 1183.10 X-pos: 2841.46  Range-to-target:  7158.54m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  94.96   Alt:  648.17 X-pos: 1786.20  Range-to-target:  8213.80m
+  
+ Time:  10.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  70.71   Alt: 1201.08 X-pos: 2914.31  Range-to-target:  7085.69m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  92.49   Alt:  671.60 X-pos: 1869.79  Range-to-target:  8130.21m
+  
+ Time:  10.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  68.24   Alt: 1218.45 X-pos: 2987.17  Range-to-target:  7012.83m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  90.02   Alt:  694.41 X-pos: 1953.39  Range-to-target:  8046.61m
+  
+ Time:  10.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  65.77   Alt: 1235.20 X-pos: 3060.03  Range-to-target:  6939.97m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  87.55   Alt:  716.61 X-pos: 2036.99  Range-to-target:  7963.01m
+  
+ Time:  10.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  63.30   Alt: 1251.33 X-pos: 3132.89  Range-to-target:  6867.11m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  85.08   Alt:  738.18 X-pos: 2120.59  Range-to-target:  7879.41m
+  
+ Time:  11.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  60.83   Alt: 1266.85 X-pos: 3205.75  Range-to-target:  6794.25m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  82.61   Alt:  759.14 X-pos: 2204.19  Range-to-target:  7795.81m
+  
+ Time:  11.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  58.36   Alt: 1281.75 X-pos: 3278.60  Range-to-target:  6721.40m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  80.14   Alt:  779.49 X-pos: 2287.79  Range-to-target:  7712.21m
+  
+ Time:  11.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  55.89   Alt: 1296.03 X-pos: 3351.46  Range-to-target:  6648.54m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  77.67   Alt:  799.21 X-pos: 2371.38  Range-to-target:  7628.62m
+  
+ Time:  11.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  53.42   Alt: 1309.69 X-pos: 3424.32  Range-to-target:  6575.68m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  75.20   Alt:  818.32 X-pos: 2454.98  Range-to-target:  7545.02m
+  
+ Time:  12.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  50.95   Alt: 1322.74 X-pos: 3497.18  Range-to-target:  6502.82m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  72.73   Alt:  836.81 X-pos: 2538.58  Range-to-target:  7461.42m
+  
+ Time:  12.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  48.48   Alt: 1335.17 X-pos: 3570.04  Range-to-target:  6429.96m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  70.26   Alt:  854.68 X-pos: 2622.18  Range-to-target:  7377.82m
+  
+ Time:  12.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  46.01   Alt: 1346.98 X-pos: 3642.89  Range-to-target:  6357.11m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  67.79   Alt:  871.94 X-pos: 2705.78  Range-to-target:  7294.22m
+  
+ Time:  12.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  43.54   Alt: 1358.17 X-pos: 3715.75  Range-to-target:  6284.25m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  65.32   Alt:  888.58 X-pos: 2789.37  Range-to-target:  7210.63m
+  
+ Time:  13.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  41.07   Alt: 1368.75 X-pos: 3788.61  Range-to-target:  6211.39m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  62.85   Alt:  904.60 X-pos: 2872.97  Range-to-target:  7127.03m
+  
+ Time:  13.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  38.60   Alt: 1378.70 X-pos: 3861.47  Range-to-target:  6138.53m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  60.38   Alt:  920.00 X-pos: 2956.57  Range-to-target:  7043.43m
+  
+ Time:  13.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  36.13   Alt: 1388.04 X-pos: 3934.32  Range-to-target:  6065.68m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  57.91   Alt:  934.78 X-pos: 3040.17  Range-to-target:  6959.83m
+  
+ Time:  13.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  33.66   Alt: 1396.77 X-pos: 4007.18  Range-to-target:  5992.82m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  55.44   Alt:  948.95 X-pos: 3123.77  Range-to-target:  6876.23m
+  
+ Time:  14.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  31.19   Alt: 1404.87 X-pos: 4080.04  Range-to-target:  5919.96m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  52.97   Alt:  962.50 X-pos: 3207.36  Range-to-target:  6792.64m
+  
+ Time:  14.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  28.72   Alt: 1412.36 X-pos: 4152.90  Range-to-target:  5847.10m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  50.50   Alt:  975.43 X-pos: 3290.96  Range-to-target:  6709.04m
+  
+ Time:  14.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  26.25   Alt: 1419.23 X-pos: 4225.76  Range-to-target:  5774.24m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  48.03   Alt:  987.75 X-pos: 3374.56  Range-to-target:  6625.44m
+  
+ Time:  14.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  23.78   Alt: 1425.49 X-pos: 4298.61  Range-to-target:  5701.39m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  45.56   Alt:  999.45 X-pos: 3458.16  Range-to-target:  6541.84m
+  
+ Time:  15.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  21.31   Alt: 1431.12 X-pos: 4371.47  Range-to-target:  5628.53m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  43.09   Alt: 1010.53 X-pos: 3541.76  Range-to-target:  6458.24m
+  
+ Time:  15.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  18.84   Alt: 1436.14 X-pos: 4444.33  Range-to-target:  5555.67m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  40.62   Alt: 1020.99 X-pos: 3625.35  Range-to-target:  6374.65m
+  
+ Time:  15.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  16.37   Alt: 1440.54 X-pos: 4517.19  Range-to-target:  5482.81m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  38.15   Alt: 1030.83 X-pos: 3708.95  Range-to-target:  6291.05m
+  
+ Time:  15.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  13.90   Alt: 1444.32 X-pos: 4590.05  Range-to-target:  5409.95m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  35.68   Alt: 1040.06 X-pos: 3792.55  Range-to-target:  6207.45m
+  
+ Time:  16.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  11.43   Alt: 1447.49 X-pos: 4662.90  Range-to-target:  5337.10m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  33.21   Alt: 1048.67 X-pos: 3876.15  Range-to-target:  6123.85m
+  
+ Time:  16.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   8.96   Alt: 1450.04 X-pos: 4735.76  Range-to-target:  5264.24m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  30.74   Alt: 1056.67 X-pos: 3959.75  Range-to-target:  6040.25m
+  
+ Time:  16.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   6.49   Alt: 1451.97 X-pos: 4808.62  Range-to-target:  5191.38m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  28.27   Alt: 1064.04 X-pos: 4043.34  Range-to-target:  5956.66m
+  
+ Time:  16.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   4.02   Alt: 1453.28 X-pos: 4881.48  Range-to-target:  5118.52m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  25.80   Alt: 1070.80 X-pos: 4126.94  Range-to-target:  5873.06m
+  
+ Time:  17.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   1.55   Alt: 1453.98 X-pos: 4954.33  Range-to-target:  5045.67m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  23.33   Alt: 1076.94 X-pos: 4210.54  Range-to-target:  5789.46m
+  
+ Time:  17.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   0.92   Alt: 1454.06 X-pos: 5027.19  Range-to-target:  4972.81m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  20.86   Alt: 1082.46 X-pos: 4294.14  Range-to-target:  5705.86m
+  
+ Time:  17.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   3.39   Alt: 1453.52 X-pos: 5100.05  Range-to-target:  4899.95m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  18.39   Alt: 1087.37 X-pos: 4377.74  Range-to-target:  5622.26m
+  
+ Time:  17.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   5.86   Alt: 1452.36 X-pos: 5172.91  Range-to-target:  4827.09m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  15.92   Alt: 1091.65 X-pos: 4461.33  Range-to-target:  5538.67m
+  
+ Time:  18.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:   8.33   Alt: 1450.59 X-pos: 5245.77  Range-to-target:  4754.23m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  13.45   Alt: 1095.32 X-pos: 4544.93  Range-to-target:  5455.07m
+  
+ Time:  18.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  10.80   Alt: 1448.19 X-pos: 5318.62  Range-to-target:  4681.38m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  10.98   Alt: 1098.38 X-pos: 4628.53  Range-to-target:  5371.47m
+  
+ Time:  18.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  13.27   Alt: 1445.19 X-pos: 5391.48  Range-to-target:  4608.52m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   8.51   Alt: 1100.81 X-pos: 4712.13  Range-to-target:  5287.87m
+  
+ Time:  18.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  15.74   Alt: 1441.56 X-pos: 5464.34  Range-to-target:  4535.66m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   6.04   Alt: 1102.63 X-pos: 4795.73  Range-to-target:  5204.27m
+  
+ Time:  19.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  18.21   Alt: 1437.31 X-pos: 5537.20  Range-to-target:  4462.80m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   3.57   Alt: 1103.83 X-pos: 4879.32  Range-to-target:  5120.68m
+  
+ Time:  19.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  20.68   Alt: 1432.45 X-pos: 5610.06  Range-to-target:  4389.94m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   1.10   Alt: 1104.41 X-pos: 4962.92  Range-to-target:  5037.08m
+  
+ Time:  19.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  23.15   Alt: 1426.97 X-pos: 5682.91  Range-to-target:  4317.09m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   1.37   Alt: 1104.38 X-pos: 5046.52  Range-to-target:  4953.48m
+  
+ Time:  19.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  25.62   Alt: 1420.88 X-pos: 5755.77  Range-to-target:  4244.23m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   3.84   Alt: 1103.72 X-pos: 5130.12  Range-to-target:  4869.88m
+  
+ Time:  20.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  28.09   Alt: 1414.16 X-pos: 5828.63  Range-to-target:  4171.37m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   6.31   Alt: 1102.45 X-pos: 5213.72  Range-to-target:  4786.28m
+  
+ Time:  20.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  30.56   Alt: 1406.83 X-pos: 5901.49  Range-to-target:  4098.51m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:   8.78   Alt: 1100.57 X-pos: 5297.31  Range-to-target:  4702.69m
+  
+ Time:  20.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  33.03   Alt: 1398.88 X-pos: 5974.34  Range-to-target:  4025.66m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  11.25   Alt: 1098.06 X-pos: 5380.91  Range-to-target:  4619.09m
+  
+ Time:  20.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  35.50   Alt: 1390.31 X-pos: 6047.20  Range-to-target:  3952.80m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  13.72   Alt: 1094.94 X-pos: 5464.51  Range-to-target:  4535.49m
+  
+ Time:  21.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  37.97   Alt: 1381.13 X-pos: 6120.06  Range-to-target:  3879.94m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  16.19   Alt: 1091.20 X-pos: 5548.11  Range-to-target:  4451.89m
+  
+ Time:  21.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  40.44   Alt: 1371.33 X-pos: 6192.92  Range-to-target:  3807.08m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  18.66   Alt: 1086.84 X-pos: 5631.71  Range-to-target:  4368.29m
+  
+ Time:  21.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  42.91   Alt: 1360.91 X-pos: 6265.78  Range-to-target:  3734.22m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  21.13   Alt: 1081.87 X-pos: 5715.30  Range-to-target:  4284.70m
+  
+ Time:  21.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  45.38   Alt: 1349.87 X-pos: 6338.63  Range-to-target:  3661.37m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  23.60   Alt: 1076.28 X-pos: 5798.90  Range-to-target:  4201.10m
+  
+ Time:  22.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  47.85   Alt: 1338.22 X-pos: 6411.49  Range-to-target:  3588.51m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  26.07   Alt: 1070.07 X-pos: 5882.50  Range-to-target:  4117.50m
+  
+ Time:  22.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  50.32   Alt: 1325.95 X-pos: 6484.35  Range-to-target:  3515.65m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  28.54   Alt: 1063.24 X-pos: 5966.10  Range-to-target:  4033.90m
+  
+ Time:  22.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  52.79   Alt: 1313.06 X-pos: 6557.21  Range-to-target:  3442.79m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  31.01   Alt: 1055.79 X-pos: 6049.70  Range-to-target:  3950.30m
+  
+ Time:  22.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  55.26   Alt: 1299.55 X-pos: 6630.07  Range-to-target:  3369.93m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  33.48   Alt: 1047.73 X-pos: 6133.29  Range-to-target:  3866.71m
+  
+ Time:  23.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  57.73   Alt: 1285.43 X-pos: 6702.92  Range-to-target:  3297.08m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  35.95   Alt: 1039.05 X-pos: 6216.89  Range-to-target:  3783.11m
+  
+ Time:  23.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  60.20   Alt: 1270.69 X-pos: 6775.78  Range-to-target:  3224.22m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  38.42   Alt: 1029.75 X-pos: 6300.49  Range-to-target:  3699.51m
+  
+ Time:  23.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  62.67   Alt: 1255.33 X-pos: 6848.64  Range-to-target:  3151.36m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  40.89   Alt: 1019.84 X-pos: 6384.09  Range-to-target:  3615.91m
+  
+ Time:  23.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  65.14   Alt: 1239.35 X-pos: 6921.50  Range-to-target:  3078.50m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  43.36   Alt: 1009.31 X-pos: 6467.69  Range-to-target:  3532.31m
+  
+ Time:  24.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  67.61   Alt: 1222.76 X-pos: 6994.35  Range-to-target:  3005.65m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  45.83   Alt:  998.16 X-pos: 6551.29  Range-to-target:  3448.71m
+  
+ Time:  24.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  70.08   Alt: 1205.54 X-pos: 7067.21  Range-to-target:  2932.79m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  48.30   Alt:  986.39 X-pos: 6634.88  Range-to-target:  3365.12m
+  
+ Time:  24.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  72.55   Alt: 1187.71 X-pos: 7140.07  Range-to-target:  2859.93m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  50.77   Alt:  974.00 X-pos: 6718.48  Range-to-target:  3281.52m
+  
+ Time:  24.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  75.02   Alt: 1169.27 X-pos: 7212.93  Range-to-target:  2787.07m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  53.24   Alt:  961.00 X-pos: 6802.08  Range-to-target:  3197.92m
+  
+ Time:  25.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  77.49   Alt: 1150.20 X-pos: 7285.79  Range-to-target:  2714.21m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  55.71   Alt:  947.38 X-pos: 6885.68  Range-to-target:  3114.32m
+  
+ Time:  25.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  79.96   Alt: 1130.52 X-pos: 7358.64  Range-to-target:  2641.36m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  58.18   Alt:  933.14 X-pos: 6969.28  Range-to-target:  3030.72m
+  
+ Time:  25.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  82.43   Alt: 1110.22 X-pos: 7431.50  Range-to-target:  2568.50m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  60.65   Alt:  918.29 X-pos: 7052.87  Range-to-target:  2947.13m
+  
+ Time:  25.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  84.90   Alt: 1089.31 X-pos: 7504.36  Range-to-target:  2495.64m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  63.12   Alt:  902.82 X-pos: 7136.47  Range-to-target:  2863.53m
+  
+ Time:  26.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  87.37   Alt: 1067.77 X-pos: 7577.22  Range-to-target:  2422.78m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  65.59   Alt:  886.73 X-pos: 7220.07  Range-to-target:  2779.93m
+  
+ Time:  26.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  89.84   Alt: 1045.62 X-pos: 7650.08  Range-to-target:  2349.92m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  68.06   Alt:  870.02 X-pos: 7303.67  Range-to-target:  2696.33m
+  
+ Time:  26.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  92.31   Alt: 1022.85 X-pos: 7722.93  Range-to-target:  2277.07m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  70.53   Alt:  852.70 X-pos: 7387.27  Range-to-target:  2612.73m
+  
+ Time:  26.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  94.78   Alt:  999.46 X-pos: 7795.79  Range-to-target:  2204.21m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  73.00   Alt:  834.75 X-pos: 7470.86  Range-to-target:  2529.14m
+  
+ Time:  27.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  97.25   Alt:  975.46 X-pos: 7868.65  Range-to-target:  2131.35m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  75.47   Alt:  816.19 X-pos: 7554.46  Range-to-target:  2445.54m
+  
+ Time:  27.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy:  99.72   Alt:  950.84 X-pos: 7941.51  Range-to-target:  2058.49m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  77.94   Alt:  797.02 X-pos: 7638.06  Range-to-target:  2361.94m
+  
+ Time:  27.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 102.19   Alt:  925.60 X-pos: 8014.37  Range-to-target:  1985.63m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  80.41   Alt:  777.22 X-pos: 7721.66  Range-to-target:  2278.34m
+  
+ Time:  27.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 104.66   Alt:  899.74 X-pos: 8087.22  Range-to-target:  1912.78m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  82.88   Alt:  756.81 X-pos: 7805.26  Range-to-target:  2194.74m
+  
+ Time:  28.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 107.13   Alt:  873.27 X-pos: 8160.08  Range-to-target:  1839.92m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  85.35   Alt:  735.78 X-pos: 7888.85  Range-to-target:  2111.15m
+  
+ Time:  28.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 109.60   Alt:  846.18 X-pos: 8232.94  Range-to-target:  1767.06m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  87.82   Alt:  714.13 X-pos: 7972.45  Range-to-target:  2027.55m
+  
+ Time:  28.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 112.07   Alt:  818.47 X-pos: 8305.80  Range-to-target:  1694.20m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  90.29   Alt:  691.87 X-pos: 8056.05  Range-to-target:  1943.95m
+  
+ Time:  28.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 114.54   Alt:  790.14 X-pos: 8378.65  Range-to-target:  1621.35m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  92.76   Alt:  668.98 X-pos: 8139.65  Range-to-target:  1860.35m
+  
+ Time:  29.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 117.01   Alt:  761.20 X-pos: 8451.51  Range-to-target:  1548.49m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  95.23   Alt:  645.48 X-pos: 8223.25  Range-to-target:  1776.75m
+  
+ Time:  29.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 119.48   Alt:  731.63 X-pos: 8524.37  Range-to-target:  1475.63m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy:  97.70   Alt:  621.37 X-pos: 8306.84  Range-to-target:  1693.16m
+  
+ Time:  29.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 121.95   Alt:  701.45 X-pos: 8597.23  Range-to-target:  1402.77m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 100.17   Alt:  596.63 X-pos: 8390.44  Range-to-target:  1609.56m
+  
+ Time:  29.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 124.42   Alt:  670.66 X-pos: 8670.09  Range-to-target:  1329.91m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 102.64   Alt:  571.28 X-pos: 8474.04  Range-to-target:  1525.96m
+  
+ Time:  30.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 126.89   Alt:  639.24 X-pos: 8742.94  Range-to-target:  1257.06m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 105.11   Alt:  545.31 X-pos: 8557.64  Range-to-target:  1442.36m
+  
+ Time:  30.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 129.36   Alt:  607.21 X-pos: 8815.80  Range-to-target:  1184.20m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 107.58   Alt:  518.72 X-pos: 8641.24  Range-to-target:  1358.76m
+  
+ Time:  30.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 131.83   Alt:  574.56 X-pos: 8888.66  Range-to-target:  1111.34m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 110.05   Alt:  491.52 X-pos: 8724.83  Range-to-target:  1275.17m
+  
+ Time:  30.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 134.30   Alt:  541.30 X-pos: 8961.52  Range-to-target:  1038.48m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 112.52   Alt:  463.69 X-pos: 8808.43  Range-to-target:  1191.57m
+  
+ Time:  31.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 136.77   Alt:  507.41 X-pos: 9034.38  Range-to-target:   965.62m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 114.99   Alt:  435.26 X-pos: 8892.03  Range-to-target:  1107.97m
+  
+ Time:  31.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 139.24   Alt:  472.91 X-pos: 9107.23  Range-to-target:   892.77m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 117.46   Alt:  406.20 X-pos: 8975.63  Range-to-target:  1024.37m
+  
+ Time:  31.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 141.71   Alt:  437.79 X-pos: 9180.09  Range-to-target:   819.91m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 119.93   Alt:  376.52 X-pos: 9059.23  Range-to-target:   940.77m
+  
+ Time:  31.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 144.18   Alt:  402.05 X-pos: 9252.95  Range-to-target:   747.05m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 122.40   Alt:  346.23 X-pos: 9142.82  Range-to-target:   857.18m
+  
+ Time:  32.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 146.65   Alt:  365.70 X-pos: 9325.81  Range-to-target:   674.19m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 124.87   Alt:  315.32 X-pos: 9226.42  Range-to-target:   773.58m
+  
+ Time:  32.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 149.12   Alt:  328.73 X-pos: 9398.66  Range-to-target:   601.34m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 127.34   Alt:  283.79 X-pos: 9310.02  Range-to-target:   689.98m
+  
+ Time:  32.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 151.59   Alt:  291.14 X-pos: 9471.52  Range-to-target:   528.48m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 129.81   Alt:  251.65 X-pos: 9393.62  Range-to-target:   606.38m
+  
+ Time:  32.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 154.06   Alt:  252.93 X-pos: 9544.38  Range-to-target:   455.62m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 132.28   Alt:  218.89 X-pos: 9477.22  Range-to-target:   522.78m
+  
+ Time:  33.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 156.53   Alt:  214.11 X-pos: 9617.24  Range-to-target:   382.76m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 134.75   Alt:  185.51 X-pos: 9560.81  Range-to-target:   439.19m
+  
+ Time:  33.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 159.00   Alt:  174.67 X-pos: 9690.10  Range-to-target:   309.90m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 137.22   Alt:  151.51 X-pos: 9644.41  Range-to-target:   355.59m
+  
+ Time:  33.50s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 161.47   Alt:  134.61 X-pos: 9762.95  Range-to-target:   237.05m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 139.69   Alt:  116.89 X-pos: 9728.01  Range-to-target:   271.99m
+  
+ Time:  33.75s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 163.94   Alt:   93.93 X-pos: 9835.81  Range-to-target:   164.19m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 142.16   Alt:   81.66 X-pos: 9811.61  Range-to-target:   188.39m
+  
+ Time:  34.00s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 166.41   Alt:   52.64 X-pos: 9908.67  Range-to-target:    91.33m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 144.63   Alt:   45.81 X-pos: 9895.21  Range-to-target:   104.79m
+  
+ Time:  34.25s
+  *Battery No. 1: A2A1 105mm: 
+    Vx:  291.43  Vy: 168.88   Alt:   10.72 X-pos: 9981.53  Range-to-target:    18.47m
+  *Battery No. 2: M1 155m: 
+    Vx:  334.39  Vy: 147.10   Alt:    9.34 X-pos: 9978.80  Range-to-target:    21.20m
+  
+ Time:  34.50s
+ ****************************************
+ Battery No. 1 impacted target at t= 34.31s
+ ****************************************
+  
+ ****************************************
+ Battery No. 2 impacted target at t= 34.31s
+ ****************************************
+  
+ Do you wish to continue or quit?
+ (Enter "quit" to quit or anything else to continue)

@@ -1,0 +1,21 @@
+ File: outt.txt            
+ Welcome to the Artillery Control System
+ In this program you will control a number of artillery batteries and fire them upon a central target.
+ How many batteries do you wish to use?
+  
+ ***************************************************
+ You have chosen to use  1 artillery batteries.
+
+ Please enter the types of battery you want to use. 
+ Then, enter the the range the battery is from the target.
+ Enter "1" for the 105mm A2A1 Howitzer
+  * Max-Range (in meters) for the A2A1 is: 11200.00 meters
+ Enter "2" for the 155mm M1
+  * Max-Range (in meters) for the M1 is: 23700.00 meters
+ ***************************************************
+ Enter artillery type for battery number:  1
+ Artillery type:            1
+ Enter range (in meters) from target for battery number:  1
+ Range:    100.000000    
+ Do you wish to continue or quit?
+ (Enter "quit" to quit or anything else to continue)

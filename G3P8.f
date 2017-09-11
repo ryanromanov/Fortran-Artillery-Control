@@ -43,8 +43,7 @@ c     Shell Parameters (in Kilograms)
 c     Initial Velocities (V0, in meters per second)
         real, parameter :: V0a2 = 472
         real, parameter :: V0m1 = 853
-
-        real :: maxTime
+        real :: maxTime = 0.0
         integer :: i = 1
         logical :: quit = .false.
         do i = 7, 1, -1
@@ -53,10 +52,14 @@ c     Initial Velocities (V0, in meters per second)
         end do
 
 
-
 c     Main Loop
         do while (.not. quit)
+
+          call resetArray(rTTarget,angleToTarget, initVTTarget,
+     +timeTTarget, timeTFire, maxTime)
+
           call FileSaver(oerror, overwrite, outputFileName, exists)
+
           call BatteryNumber(n)
           call ArtilleryChooser(art, n, rTTarget)
 
@@ -234,6 +237,7 @@ c     Range-to-target array (parallel with art array)
         integer, parameter :: m1 = 2
         integer :: j
 
+        print*, 'In Angle Finder'
         do i = 1, n
           j = 1
           print*, art(i)
@@ -277,9 +281,11 @@ c   Subroutine to calculate Time to target and max time
         real, dimension(10) :: timeTFire
         real :: A2MRange, M1MRange
         integer, dimension(10) :: art
-        real :: tempTime
+        real :: tempTime = 0.0
         real :: maxTime
 
+
+        print*, 'In time finder'
         do i = 1, n
           timeTTarget(i) = 2*((initVTTarget(i)*sin(angleToTarget(i)))/
      +9.88)
@@ -297,6 +303,7 @@ c   maxTime is the time that the longest battery takes
         maxTime = tempTime
         do i = 1, n
           timeTFire(i) = tempTime - timeTTarget(i)
+          print*, 'Time to Fire: ', timeTFire
         end do
 
       end subroutine TimeFinder
@@ -314,19 +321,23 @@ c   Subroutine for firing/timing/recording artillery
         integer, dimension(10) :: impacted = 0
         real :: maxTime
         integer :: n, i, j
-        real:: t = 0
+        real:: t = 0.0
         real, dimension(10) :: x, y=0, Vx, Vy
         integer, parameter :: a2 = 1
         integer, parameter :: m1 = 2
-        print*, maxTime
+        print*, 'Maxtime: ', maxTime
+        print*, 'time: ', t
 c   Time Loop
+        print*, 'In Fire Control'
         do while (t .le. maxTime+.24)
+          print*, 'In maxtime loop'
           write(*,*) ' '
           write(9,*) ' '
           write(*,3) 'Time: ', t
           write(9,3) 'Time: ', t
 c   Iterates through number of artillery
           do i = 1, n
+            print*, t
             if (t .ge. timeTFire(i)) then
 c   Loop to tell user when battery has fired
               if (t.le.timeTFire(i)+.24.and.t.gt.timeTFire(i)-.25)then
@@ -389,7 +400,32 @@ c   Write out info for each battery per cycle
   4   format(' ',A,I2,X,A,F6.2,X,A,F6.2,X,A,F6.2,A)
   5   format(' ',A, I2,X,A,F6.2,A)
       end subroutine
+c   Subroutine to reset arrays
 
+      subroutine resetArray(rTTarget, angleToTarget, initVTTarget,
+     +timeTTarget, timeTFire, maxTime)
+        implicit none
+        real, dimension(10) :: rTTarget
+        real, dimension(10) :: angleToTarget
+        real, dimension(10) :: initVTTarget
+        real, dimension(10) :: timeTTarget
+        real, dimension(10) :: timeTFire
+        real                :: maxTime
+        logical :: allkorekt = .false.
+        integer :: i
+        maxTime = 0.0
+        do while (.not. allkorekt)
+          do i = 1, 10
+            rTTarget(i) = 0.0
+            angleToTarget = 0.0
+            initVTTarget = 0.0
+            timeTTarget = 0.0
+            timeTFire = 0.0
+          end do
+          allkorekt = .true.
+        end do
+
+      end subroutine
 c   Subroutines to end the program if user wishes
       subroutine EndProgram(quit)
         implicit none
