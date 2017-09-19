@@ -321,7 +321,7 @@ c   Subroutine for firing/timing/recording artillery
         integer, dimension(10) :: impacted = 0
         real :: maxTime
         integer :: n, i, j
-        real:: t = 0.0
+        real :: t = 0
         real, dimension(10) :: x, y=0, Vx, Vy
         integer, parameter :: a2 = 1
         integer, parameter :: m1 = 2
